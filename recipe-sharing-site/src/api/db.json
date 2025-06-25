@@ -1,0 +1,74 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Spaghetti Bolognese",
+      "description": "Classic Italian pasta dish",
+      "ingredients": ["spaghetti", "ground beef", "tomato sauce"],
+      "instructions": "Cook pasta, prepare sauce, combine.",
+      "cookingTime": 45,
+      "servings": 4,
+      "category": "Dinner",
+      "rating": 4.5,
+      "nutritionalInfo": { "calories": 600, "protein": 25, "fat": 15, "carbs": 80 },
+      "comments": [
+        { "id": 1, "username": "User1", "text": "Delicious!", "timestamp": "2025-06-01T10:00:00Z" }
+      ]
+    }
+    ,
+    {
+      "id": 2,
+      "title": "Caesar Salad",
+      "description": "Fresh salad with Caesar dressing",
+      "ingredients": ["romaine lettuce", "croutons", "Caesar dressing"],
+      "instructions": "Toss ingredients together and serve.",
+      "cookingTime": 15,
+      "servings": 2,
+      "category": "Salad",
+      "rating": 4.0,
+      "nutritionalInfo": { "calories": 200, "protein": 5, "fat": 10, "carbs": 20 },
+      "comments": []
+    },
+    {
+      "id": 3,
+      "title": "Chicken Curry",
+      "description": "Spicy chicken curry with rice",
+      "ingredients": ["chicken", "curry powder", "rice"],
+      "instructions": "Cook chicken, add spices, serve with rice.",
+      "cookingTime": 60,
+      "servings": 4,
+      "category": "Dinner",
+      "rating": 4.8,
+      "nutritionalInfo": { "calories": 700, "protein": 30, "fat": 20, "carbs": 90 },
+      "comments": []
+    },
+    {
+      "id": 4,
+      "title": "Vegetable Stir Fry",
+      "description": "Quick and healthy vegetable stir fry",
+      "ingredients": ["mixed vegetables", "soy sauce", "ginger"],
+      "instructions": "Stir fry vegetables, add sauce, serve hot.",
+      "cookingTime": 20,
+      "servings": 3,
+      "category": "Vegetarian",
+      "rating": 4.2,
+      "nutritionalInfo": { "calories": 300, "protein": 10, "fat": 5, "carbs": 50 },
+      "comments": []
+    },
+    {
+      "id": 5,
+      "title": "Chocolate Cake",
+      "description": "Rich and moist chocolate cake",
+      "ingredients": ["flour", "cocoa powder", "sugar", "eggs"],
+      "instructions": "Mix ingredients, bake, and enjoy.",
+      "cookingTime": 90,
+      "servings": 8,
+      "category": "Dessert",
+      "rating": 4.9,
+      "nutritionalInfo": { "calories": 400, "protein": 6, "fat": 20, "carbs": 50 },
+      "comments": []
+    }
+  ],
+  "users": [],
+  "comments": []
+}

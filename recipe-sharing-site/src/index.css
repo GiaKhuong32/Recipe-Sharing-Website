@@ -1,0 +1,38 @@
+/*
+ * src/index.css
+ * File này chứa các cấu hình cơ bản cho TailwindCSS và các style toàn cục.
+ */
+
+/*
+ * Import các chỉ thị (directives) của TailwindCSS.
+ * Tailwind sẽ thay thế các chỉ thị này bằng các style đã được tạo ra.
+ * 1. `base`: Reset các style của trình duyệt và áp dụng các style cơ sở.
+ * 2. `components`: Các lớp tiện ích dựa trên component.
+ * 3. `utilities`: Các lớp tiện ích (utility classes) mà bạn sẽ sử dụng nhiều nhất.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Sử dụng directive `@layer` để thêm các style tùy chỉnh vào các lớp của Tailwind.
+ * Ở đây, chúng ta thêm style vào lớp `base` để định nghĩa giao diện mặc định cho `body`.
+ */
+@layer base {
+  body {
+    /*
+     * Thiết lập màu nền và màu chữ mặc định cho chế độ Sáng (light mode).
+     * Sử dụng các lớp `dark:` để định nghĩa màu nền và màu chữ cho chế độ Tối (dark mode).
+     * `bg-gray-100` và `dark:bg-gray-900` tạo ra sự tương phản tốt.
+     * `text-gray-900` và `dark:text-gray-100` đảm bảo văn bản dễ đọc.
+     */
+    @apply bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+
+    /*
+     * Thêm hiệu ứng chuyển đổi (transition) cho thuộc tính màu sắc.
+     * Điều này giúp việc chuyển đổi giữa chế độ Sáng và Tối trở nên mượt mà,
+     * thay vì thay đổi đột ngột.
+     */
+    @apply transition-colors duration-300 ease-in-out;
+  }
+}
